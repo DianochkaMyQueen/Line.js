@@ -48,7 +48,7 @@
     
       let line = document.createElement("div"),
           animEl = document.createElement("div");
-      
+      animEl.className = "anim";
       animEl.classList.add(`anim-${settings.animate}`);
       animEl.style['animation-duration'] = `${settings.duration}s`;
 
