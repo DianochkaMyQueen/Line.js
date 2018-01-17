@@ -27,7 +27,7 @@ body {
   overflow: hidden;
 }
 
-.anim-right-left {
+.anim {
   height: inherit;
   width: max-content;
   
@@ -35,6 +35,9 @@ body {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+}
+
+.anim-right-left {
   
   margin: 0;
   padding: 0;
